@@ -1,48 +1,54 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html> <html>
 
     <head>
+        <link rel="stylesheet" href="./css/layout.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/script.js" defer></script>
         <title>Codezoo-clone</title>
         <meta name="" content="">
     </head>
 
     <body>
-        <header>
-            <img src="" alt="Cubezoo company logo">
+        <header id="page-header">
+            <img class="header-logo" src="./img/CubeZoo-Logo-web.png" alt="Cubezoo company logo">
 
             <nav>
-                <ul>
-                    <li>Services</li>
-                    <li>Work</li>
-                    <li>About</li>
-                    <li>Blog</li>
-                    <li>Start a project</li>
+                <ul class="nav-list">
+                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Services</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Work</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">About</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Blog</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Start a project</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <section>
-                <img src="" alt="MyTimeToStart app gui">
-
-                <p>
-                See how we work with Pfizer Pharmaceuticals to develop
-                a quit smoking app called 'MyTimeToStart'.
-                <a>View more<a>
-                </p>
-                <p>Est. 2011</p>
-                <h1>CubeZoo is an app and web development company</h1>
-                <p>People. Digital. Simple</p>
-                <p>
-                Simple things should be simple, complex things should be 
-                possible through specialised expertise we build powerful 
-                technology that helps grow business ideas.
-                </p>
+            <section class="two-column">
+                <div>
+                    <p>Est. 2011</p>
+                    <h1>CubeZoo is an app and web development company</h1>
+                    <p>People. Digital. Simple</p>
+                    <p>
+                    Simple things should be simple, complex things should be 
+                    possible through specialised expertise we build powerful 
+                    technology that helps grow business ideas.
+                    </p>
+                    <img src="img/Devices.png" alt="">
+                </div>
+                <div>
+                    <img width="400" src="img/mytimetostart.png" alt="MyTimeToStart app gui">
+                    <p>
+                    See how we work with Pfizer Pharmaceuticals to develop
+                    a quit smoking app called 'MyTimeToStart'.
+                    <a>View more<a>
+                    </p>
+                </div>
             </section>
 
-            <section>
-                <!-- Background image here instead of the regular ones on most 
-                    of these sections -->
+            <section class="two-column">
+                <img width="400" src="img/man-and-bok.png" alt="">
+                <div>
                     <h2>
                         We help connect the dots between 
                         <span>people and technology</span>
@@ -54,224 +60,252 @@
                     </p>
                     <p>
                     <span><strong>We are software developers who specialise 
-                    in web, iOS, and Android development.</strong></span> 
+                            in web, iOS, and Android development.</strong></span> 
                     We will help you turn your business dream into a reality.
                     </p>
+                    <img width="400" src="img/lady-and-koala.png" alt="">
+                </div>
             </section>
 
-            <section>
-                <img src="" 
-                alt="Notable companies with whom Codezoo has worked before- 
-                Pfizer, HP, BMW, IG, flash, Aprix life, Sureswipe, Vodacom,
-                Beancruncher, Telkom, Investec, Demographica.">
+            <section class="six-col-grid">
+                <img src="img/pfizer.png" alt="">
+                <img src="img/hp.png" alt="">
+                <img src="img/bmw.png" alt="">
+                <img src="img/ig.png" alt="">
+                <img src="img/flash.png" alt="">
+                <img src="img/aprix.png" alt="">
+                <img src="img/sureswipe.png" alt="">
+                <img src="img/vodacom.png" alt="">
+                <img src="img/Beancruncher.png" alt="">
+                <img src="img/Telkom.png" alt="">
+                <img src="img/investec.png" alt="">
+                <img src="img/demographica.png" alt="">
             </section>
 
 
-            <section>
-                <img src="" 
+            <section class="two-column">
+                <img width="400" src="img/man-and-lion.png" 
                 alt="A humanoid-lion and a man discussing mobile development 
                 over a cup of coffee">
-                <h2>Mobile app development</h2>
-                <p>Android. IOS. Hybrid.</p>
-                <p>
-                Mobile apps help people connect with business opportunities. 
-                Our mobile developers are dedicated to helping clients turn 
-                their ambitious ideas into reality.
-                </p>
-                <p>
-                Specialising in Android and IOS developments we develop for 
-                both Native and Hybrid app technologies. As an experience app 
-                development company we advise on secure and scalable solutions.
-                </p>
-                <p>
-                We deliver on true and measurable experiences by connecting 
-                real people insights and business sense.
-                </p>
-                <button type="">More on apps</button>
+                <div>
+                    <h2>Mobile app development</h2>
+                    <p>Android. IOS. Hybrid.</p>
+                    <p>
+                    Mobile apps help people connect with business opportunities. 
+                    Our mobile developers are dedicated to helping clients turn 
+                    their ambitious ideas into reality.
+                    </p>
+                    <p>
+                    Specialising in Android and IOS developments we develop for 
+                    both Native and Hybrid app technologies. As an experience app 
+                    development company we advise on secure and scalable solutions.
+                    </p>
+                    <p>
+                    We deliver on true and measurable experiences by connecting 
+                    real people insights and business sense.
+                    </p>
+                    <button type="">More on apps</button>
+                </div>
             </section>
 
-            <section>
-                <img src="" alt="A humanoid-elephant being taught web 
+            <section class="two-column">
+                <div>
+                    <h2>Website development</h2>
+                    <p>Business. eCommerce. Dashboards.</p>
+                    <p>
+                    Your website can either help your business stand out from the 
+                    competition or make it blend in with everyone else. A 
+                    good-looking website is important, but what really matters is 
+                    how well it works.
+                    </p>
+                    <p>
+                    We adapt to clients' ever-changing business needs by building 
+                    scalable websites. Intelligent by design and easy to use.
+                    </p>
+                    <p>
+                    Talk to us about you requirements and we will help build a 
+                    sensible and true ROI solution.
+                    </p>
+                    <button type="">More on web</button>
+                </div>
+                <img width="400" src="img/lady-and-elephant.png" alt="A humanoid-elephant being taught web 
                 development by a person">
-                <h2>Website development</h2>
-                <p>Business. eCommerce. Dashboards.</p>
-                <p>
-                Your website can either help your business stand out from the 
-                competition or make it blend in with everyone else. A 
-                good-looking website is important, but what really matters is 
-                how well it works.
-                </p>
-                <p>
-                We adapt to clients' ever-changing business needs by building 
-                scalable websites. Intelligent by design and easy to use.
-                </p>
-                <p>
-                Talk to us about you requirements and we will help build a 
-                sensible and true ROI solution.
-                </p>
-                <button type="">More on web</button>
             </section>
 
-            <section>
-                <p>If it doesn't sell, <span>it isn't creative</span></p>
+            <section class="centred-text">
+                <p>If it doesn't sell, <br><span>it isn't creative</span></p>
                 <cite>David Ogilfy</cite>
             </section>
 
-            <section>
-                <h2>Our development process</h2>
-                <p>Discover. Design. Develop.</p>
-                <p>
-                We use an agile philosophy and scrum technique to develop 
-                products, as opposed to the traditional waterfall methods. Our 
-                clients can see, touch and test their product during production,
-                instead of waiting for the final product.
-                </p>
-                <img src="" alt="Video of cubezoo office and employees working">
+            <section class="two-column">
+                <video width="250" autoplay loop>
+                    <source src="img/CZ-user-research.mp4" type="video/mp4">
+                </video>
+                <!-- <video src="img/CZ-user-research.mp4" autoplay loop> -->
+                <div>
+                    <h2>Our development process</h2>
+                    <p>Discover. Design. Develop.</p>
+                    <p>
+                    We use an agile philosophy and scrum technique to develop 
+                    products, as opposed to the traditional waterfall methods. Our 
+                    clients can see, touch and test their product during production,
+                    instead of waiting for the final product.
+                    </p>
+                </div>
             </section>
 
 
-            <section>
-                <h3>01. User Research</h3>
-                <p>
-                We work with our clients to understand their business case and 
-                customers. We use popular research methods, such as surveys 
-                and interviews, to understand how technology is used by real 
-                people.
-                </p>
-                <p>
-                We target specific users, learn about their needs and 
-                frustrations, and use the information to enhance customer 
-                satisfaction.
-                </p>
-                <h3>02. Project Analysis</h3>
-                <p>
-                We use the information from user research to find the best 
-                rated findings and best user practices. We may even create a 
-                persona to assist the creative team when designing for the 
-                correct audience. Bundling the client's expectation with the 
-                right user experience leads to a well received product.
-                </p>
-                <!-- 2x2 grid photos -->
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+            <section class="two-column">
+                <div>
+                    <h3>01. User Research</h3>
+                    <p>
+                    We work with our clients to understand their business case and 
+                    customers. We use popular research methods, such as surveys 
+                    and interviews, to understand how technology is used by real 
+                    people.
+                    </p>
+                    <p>
+                    We target specific users, learn about their needs and 
+                    frustrations, and use the information to enhance customer 
+                    satisfaction.
+                    </p>
+                    <h3>02. Project Analysis</h3>
+                    <p>
+                    We use the information from user research to find the best 
+                    rated findings and best user practices. We may even create a 
+                    persona to assist the creative team when designing for the 
+                    correct audience. Bundling the client's expectation with the 
+                    right user experience leads to a well received product.
+                    </p>
+                </div>
+                <img width="400" src="img/quad-images.jpg" alt="">
             </section>
 
-            <section>
-                <h3>03. Design & Prototyping</h3>
-                <p>
-                We create wireframes as a basic outline of the product 
-                architecture. It conveys, navigation, direction and 
-                description of the user interface.
-                </p>
-                <p>
-                Designing interfaces involves thinking about how users will 
-                interact with them and what kind of experiences they will have. 
-                We want users to have positive experiences with products that 
-                look good and are easy to use. Gamifying can make your design 
-                more fun and engaging where appropriate.
-                </p>
-                <p>
-                Prototyping works best for test cycles as this helps to ensure 
-                that the product is correctly understood and user-friendly.
-                </p>
-                <h3>04. Software Development</h3>
-                <p>
-                We choose code frameworks based on what will work best for our 
-                client's project. For example, a Flutter app may be less 
-                expensive to develop than a Native app. Therefore our strategy 
-                is adopt a programming language that is both reliable and scalable.
-                </p>
-                <p>
-                Our development team are paired in groups. The front-end 
-                development team handles the product's user interface and 
-                experience, while the backend development team handles the 
-                product's functionality.
-                </p>
-                <p>
-                Developed progress is presented and shared client side weekly 
-                to biweekly until the project is completed and geared for launch.
-                </p>
-                <img src="" alt="">
+            <section class="two-column">
+                <video width="250" autoplay loop>
+                    <source src="img/CZ-development.mp4" type="video/mp4">
+                </video>
+                <div>
+                    <h3>03. Design & Prototyping</h3>
+                    <p>
+                    We create wireframes as a basic outline of the product 
+                    architecture. It conveys, navigation, direction and 
+                    description of the user interface.
+                    </p>
+                    <p>
+                    Designing interfaces involves thinking about how users will 
+                    interact with them and what kind of experiences they will have. 
+                    We want users to have positive experiences with products that 
+                    look good and are easy to use. Gamifying can make your design 
+                    more fun and engaging where appropriate.
+                    </p>
+                    <p>
+                    Prototyping works best for test cycles as this helps to ensure 
+                    that the product is correctly understood and user-friendly.
+                    </p>
+                    <h3>04. Software Development</h3>
+                    <p>
+                    We choose code frameworks based on what will work best for our 
+                    client's project. For example, a Flutter app may be less 
+                    expensive to develop than a Native app. Therefore our strategy 
+                    is adopt a programming language that is both reliable and scalable.
+                    </p>
+                    <p>
+                    Our development team are paired in groups. The front-end 
+                    development team handles the product's user interface and 
+                    experience, while the backend development team handles the 
+                    product's functionality.
+                    </p>
+                    <p>
+                    Developed progress is presented and shared client side weekly 
+                    to biweekly until the project is completed and geared for launch.
+                    </p>
+                    <img src="" alt="">
+                </div>
+                    
+                </video>
             </section>
 
-            <section>
-                <h3>05. Quality assessment</h3>
-                <p>
-                We problem solve any issues that would prevent a perfect launch.
-                </p>
-                <p>
-                Testing is defined as a software testing type, conducted 
-                through scripts with the sole motive of finding errors in code. 
-                It deals with tests for the entire web or app solution. It 
-                helps to enhance the quality of a product while reducing costs, 
-                maximising ROI, and saving development time.
-                </p>
-                <h3>06. Further development</h3>
-                <p>
-                We recommend launching our client's product with a soft launch 
-                or pilot first. Also known as an early release. This will help 
-                to identify any areas of concern and allow us to improve the 
-                product before release.
-                </p>
-                <p>
-                We analyse our products after launches to make sure they meet 
-                our standards. All software we create comes with a maintenance 
-                plan that keeps it stable and free of technical issues.
-                </p>
-                <!-- 2x1 img grid -->
-                <img src="" alt="">
-                <img src="" alt="">
+            <section class="two-column">
+                <div>
+                    <h3>05. Quality assessment</h3>
+                    <p>
+                    We problem solve any issues that would prevent a perfect launch.
+                    </p>
+                    <p>
+                    Testing is defined as a software testing type, conducted 
+                    through scripts with the sole motive of finding errors in code. 
+                    It deals with tests for the entire web or app solution. It 
+                    helps to enhance the quality of a product while reducing costs, 
+                    maximising ROI, and saving development time.
+                    </p>
+                    <h3>06. Further development</h3>
+                    <p>
+                    We recommend launching our client's product with a soft launch 
+                    or pilot first. Also known as an early release. This will help 
+                    to identify any areas of concern and allow us to improve the 
+                    product before release.
+                    </p>
+                    <p>
+                    We analyse our products after launches to make sure they meet 
+                    our standards. All software we create comes with a maintenance 
+                    plan that keeps it stable and free of technical issues.
+                    </p>
+                </div>
+                <img width="400"src="img/img-further-dev.jpg" alt="">
             </section>
 
 
             <section>
                 <h2>Few of our developed projects</h2>
                 <p> Discover. Design. Develop. </p>
-                <div>
-                    <img src="" alt="">
-                    <p>
-                    Warehousing may seem to be a simple case of holding and 
-                    releasing stock, but it requires a lot of work behind the 
-                    scenes to make it function smoothly. The major networks 
-                    such as Vodacom, MTN, CellC and Telkom, for example, have 
-                    hundreds of thousands of stock items, ranging from SIM 
-                    cards to devices.
-                    </p>
-                    <button type="">Read more</button>
-                <div>
-                    <img src="" alt="">
-                    <p>
-                    The history of communication is a tale as old as mankind. 
-                    From cave paintings to text messages, innovations in 
-                    communication have provided new ways for people to share 
-                    their ideas faster. This is essentially what Telkom’s 
-                    business is all about. Since its earliest days, when the 
-                    first South African...
-                    </p>
-                    <button type="">Read more</button>
-                </div><div>
-                    <img src="" alt="">
-                    <p>
-                    Even businesses that have been around since the 1920’s need 
-                    a great digital presence. When BMW’s motorcycle division, 
-                    Motorrad, decided to create a website app in 2016, 
-                    cross-browser compatibility quickly made them hit the skids. 
-                    CubeZoo took up the challenge, creating an interactive web 
-                    app that...
-                    </p>
-                    <button type="">Read more</button>
+                <div class="three-column">
+                    <div>
+                        <img width="400" src="img/Flash-PDA.jpg" alt="">
+                        <p>
+                        Warehousing may seem to be a simple case of holding and 
+                        releasing stock, but it requires a lot of work behind the 
+                        scenes to make it function smoothly. The major networks 
+                        such as Vodacom, MTN, CellC and Telkom, for example, have 
+                        hundreds of thousands of stock items, ranging from SIM 
+                        cards to devices.
+                        </p>
+                        <button type="">Read more</button>
+                    </div>
+                    <div>
+                        <img width="400" src="img/Telkom-portfolio.jpg" alt="">
+                        <p>
+                        The history of communication is a tale as old as mankind. 
+                        From cave paintings to text messages, innovations in 
+                        communication have provided new ways for people to share 
+                        their ideas faster. This is essentially what Telkom’s 
+                        business is all about. Since its earliest days, when the 
+                        first South African...
+                        </p>
+                        <button type="">Read more</button>
+                    </div>
+                    <div>
+                        <img width="400" src="img/BMW-portfolio.jpg" alt="">
+                        <p>
+                        Even businesses that have been around since the 1920’s need 
+                        a great digital presence. When BMW’s motorcycle division, 
+                        Motorrad, decided to create a website app in 2016, 
+                        cross-browser compatibility quickly made them hit the skids. 
+                        CubeZoo took up the challenge, creating an interactive web 
+                        app that...
+                        </p>
+                        <button type="">Read more</button>
+                    </div>
                 </div>
             </section>
 
 
-            <section>
-                <img src="" alt="bark 2021 Certificate of Excellence">
-                <img src="" alt="bark 2020 Certificate of Excellence Winner">
-                <img src="" alt="techreviewer.co TOP PHP Developers 2021">
-                <img src="" alt="The Manifest: Top 10 Mobile App Developers in South Africa">
-                <img src="" alt="Reviewed on Clutch - 5 star rating">
+            <section class="orange-bg flex-row-space-around">
+                <img width="200" src="img/bark-award-2021@2x.png" alt="bark 2021 Certificate of Excellence">
+                <img width="200" src="img/bark-award-2020@2x.png" alt="bark 2020 Certificate of Excellence Winner">
+                <img width="200" src="img/Top-PHP-agency-2021@2x.png" alt="techreviewer.co TOP PHP Developers 2021">
+                <img width="200" src="img/Manifest-top-100@2x.png" alt="The Manifest: Top 10 Mobile App Developers in South Africa">
+                <img width="200" src="img/Clutch-5stars@2x.png" alt="Reviewed on Clutch - 5 star rating">
             </section>
 
             <section>

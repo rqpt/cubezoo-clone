@@ -1,0 +1,39 @@
+#page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.nav-list > li {
+    list-style: none;
+}
+
+.two-column {
+    display: flex;
+}
+
+.three-column {
+    display: flex;
+}
+
+.centred-text {
+    text-align: center;
+}
+
+.flex-row-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.six-col-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    align-items: center;
+}
