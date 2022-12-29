@@ -1,3 +1,39 @@
+/* STYLE */
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #00368b;
+}
+
+.green-text {
+    color: #62d6b0;
+}
+
+.orange-text {
+    color: #f57a86;
+}
+
+.yellow-text {
+    color: #f8ed94;
+}
+
+.purple-text {
+    color: #cabee3;
+}
+
+.pink-text {
+    color: #e3a4c6;
+}
+
+p {
+    font-weight: 500;
+    width: 80ch;
+}
+
 .orange-bg {
     background-color: #fe6f61;
+}
+
+#page-header a {
+    text-decoration: none;
 }

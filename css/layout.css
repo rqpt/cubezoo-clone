@@ -1,7 +1,10 @@
+/* LAYOUT */
+
 #page-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-inline: 1.2rem;
 }
 
 .nav-list {
@@ -15,6 +18,9 @@
 
 .two-column {
     display: flex;
+    margin-inline: 4rem;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .three-column {
@@ -36,4 +42,16 @@
     grid-template-columns: repeat(6, 1fr);
     justify-content: center;
     align-items: center;
+}
+
+.center-aligned {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lady-and-koala {
+    position: relative;
+    right: 5rem;
+    width: 800px;
 }
