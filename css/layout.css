@@ -9,16 +9,21 @@
 
 .nav-list {
     display: flex;
-    gap: 2.5rem;
+    gap: 1.5rem;
+    font-size: small;
 }
 
 .nav-list > li {
     list-style: none;
 }
 
+.column {
+    width: 35%;
+}
+
 .two-column {
     display: flex;
-    margin-inline: 4rem;
+    margin-left: -4rem;
     justify-content: space-around;
     align-items: center;
 }

@@ -5,6 +5,17 @@ html {
     color: #00368b;
 }
 
+.primary-text {
+    color: #00368b;
+}
+.secondary-text, nav a, p {
+    color: #6787ba;
+}
+
+.blue-text {
+    color: #a1cfe8;
+}
+
 .green-text {
     color: #62d6b0;
 }
