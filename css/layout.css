@@ -84,6 +84,15 @@ h1 {
     align-items: center;
 }
 
+.six-col-grid img {
+    width: 6rem;
+    margin: auto;
+}
+
+.six-col-grid img:nth-child(n + 7) {
+    width: 10rem;
+}
+
 .center-aligned {
     display: flex;
     flex-direction: column;
@@ -100,4 +109,11 @@ h1 {
     width: 14rem;
 }
 
+button {
+    background-color: white;
+    border-radius: 4px;
+    padding: 4px 2rem;
+    border-style: solid;
+    border-width: 1px;
+}
 

@@ -31,23 +31,28 @@ html {
 }
 
 .green-text {
+    border-color: #62d6b0;
     color: #62d6b0;
 }
 
 .orange-text {
+    border-color: #f57a86;
     color: #f57a86;
 }
 
 .yellow-text {
+    border-color: #f8ed94;
     color: #f8ed94;
 }
 
 .purple-text {
+    border-color: #cabee3;
     color: #cabee3;
 }
 
 .pink-text {
-    color: #e3a4c6;
+    border-color: #f8ed94;
+    color: #f8ed94;
 }
 
 p {
