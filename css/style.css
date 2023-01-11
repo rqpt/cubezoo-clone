@@ -1,5 +1,19 @@
 /* STYLE */
 
+
+h1 {
+    font-size: 2.3rem;
+    font-weight: 100;
+}
+
+.nav-list {
+    font-size: small;
+}
+
+.main-section div p:first-child {
+    font-size: 12px;
+}
+
 html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #00368b;

@@ -1,9 +1,5 @@
 /* LAYOUT */
 
-img {
-    max-width: 100%;
-}
-
 #page-header {
     display: flex;
     justify-content: space-between;
@@ -11,10 +7,23 @@ img {
     margin-inline: 1.2rem;
 }
 
+h2 {
+    margin-top: 0;
+    width: 30ch;
+}
+
+h1 {
+    margin-top: 0;
+    width: 30ch;
+}
+
+.h1-paragraph {
+    width: 40ch;
+}
+
 .nav-list {
     display: flex;
     gap: 1.5rem;
-    font-size: small;
 }
 
 .nav-list > li {
@@ -22,12 +31,34 @@ img {
 }
 
 .column {
-    width: 35%;
+    width: 48%;
+}
+
+.column img {
+    width: 100%;
+}
+
+.man-bok {
+    position: relative;
+    bottom: 7rem;
+}
+
+.column p {
+    width: 90%;
+}
+
+.main-section div p:first-child {
+    margin-bottom: 0;
+}
+
+#devices-img {
+    width: 65%;
 }
 
 .two-column {
+    margin-top: 7.5rem;
+    margin-left: 3rem;
     display: flex;
-    margin-left: -4rem;
     justify-content: space-around;
     align-items: center;
 }
@@ -61,6 +92,12 @@ img {
 
 .lady-and-koala {
     position: relative;
-    right: 5rem;
+    /* right: 5rem; */
     width: 800px;
 }
+
+.header-logo {
+    width: 14rem;
+}
+
+
