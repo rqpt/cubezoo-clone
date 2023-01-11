@@ -1,5 +1,9 @@
 /* LAYOUT */
 
+img {
+    max-width: 100%;
+}
+
 #page-header {
     display: flex;
     justify-content: space-between;
