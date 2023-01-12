@@ -40,8 +40,7 @@ h1 {
 }
 
 .column img {
-    max-height: 100%;
-    width: 100%;
+    width: 97%;
 }
 
 .column .img-alt-size {
@@ -53,8 +52,9 @@ h1 {
     bottom: 7rem;
 }
 
-.column p {
-    width: 90%;
+section p {
+    font-size: 0.9rem;
+    width: 80ch;
 }
 
 .main-section div p:first-child {
@@ -75,6 +75,7 @@ h1 {
 
 .two-column {
     margin-left: 4rem;
+    gap: 1rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -184,4 +185,16 @@ button {
 .centered {
     width: 85ch;
     margin-inline:auto;
+}
+
+.centered * {
+    margin-inline: auto;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.about {
+    margin-left: 3.5rem;
 }
