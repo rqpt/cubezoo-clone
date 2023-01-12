@@ -1,10 +1,15 @@
 /* LAYOUT */
 
+body {
+    margin: 0;
+}
+
 #page-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-inline: 1.2rem;
+    margin-top: 0.75rem;
+    margin-inline: 1.5rem;
 }
 
 h2 {
@@ -35,7 +40,12 @@ h1 {
 }
 
 .column img {
+    max-height: 100%;
     width: 100%;
+}
+
+.column .img-alt-size {
+    width: 65%;
 }
 
 .man-bok {
@@ -55,19 +65,50 @@ h1 {
     width: 65%;
 }
 
-.two-column {
+.large-top-margin {
     margin-top: 7.5rem;
-    margin-left: 3rem;
+}
+
+.small-top-margin {
+    margin-top: 0;
+}
+
+.two-column {
+    margin-left: 4rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.three-column {
-    display: flex;
+.left-margin {
+    margin-left: 4rem;
 }
 
-.centred-text {
+.three-column {
+    margin-left: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.three-column > * {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7rem;
+    width: 25%;
+}
+
+.three-column p {
+    max-width: 65ch;
+}
+
+.three-column img {
+    width: 75%;
+}
+
+.centered-text {
     text-align: center;
 }
 
@@ -75,6 +116,11 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    min-height: 85vh;
+}
+
+.flex-row-space-around * {
+    width: 7%;
 }
 
 .six-col-grid {
@@ -89,7 +135,7 @@ h1 {
     margin: auto;
 }
 
-.six-col-grid img:nth-child(n + 7) {
+.six-col-grid img:nth-child(n + 6) {
     width: 10rem;
 }
 
@@ -117,3 +163,25 @@ button {
     border-width: 1px;
 }
 
+.quote * {
+    margin: auto;
+    text-align: center;
+}
+
+.quote p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.video {
+    width: 75%;
+}
+
+#quad-img {
+    /* width: 65%; */
+}
+
+.centered {
+    width: 85ch;
+    margin-inline:auto;
+}

@@ -1,5 +1,13 @@
 /* STYLE */
 
+.quote * {
+    color: #a4cfe6;
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 900;
+}
 
 h1 {
     font-size: 2.3rem;
@@ -10,7 +18,7 @@ h1 {
     font-size: small;
 }
 
-.main-section div p:first-child {
+.main-section div p:first-child, cite {
     font-size: 12px;
 }
 
@@ -51,8 +59,8 @@ html {
 }
 
 .pink-text {
-    border-color: #f8ed94;
-    color: #f8ed94;
+    border-color: #ebbdd6;
+    color: #ebbdd6;
 }
 
 p {
