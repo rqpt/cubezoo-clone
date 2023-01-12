@@ -36,15 +36,15 @@ h1 {
 }
 
 .column {
-    width: 48%;
+    width: 45%;
 }
 
-.column img {
-    width: 97%;
+.column img, .column video {
+    width: 100%;
 }
 
 .column .img-alt-size {
-    width: 65%;
+    width: 80%;
 }
 
 .man-bok {
@@ -54,7 +54,7 @@ h1 {
 
 section p {
     font-size: 0.9rem;
-    width: 80ch;
+    max-width: 70ch;
 }
 
 .main-section div p:first-child {
@@ -70,7 +70,7 @@ section p {
 }
 
 .small-top-margin {
-    margin-top: 0;
+    margin-top: 2rem;
 }
 
 .two-column {
@@ -97,12 +97,12 @@ section p {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 7rem;
+    gap: 5rem;
     width: 25%;
 }
 
 .three-column p {
-    max-width: 65ch;
+    max-width: 45ch;
 }
 
 .three-column img {
@@ -169,7 +169,7 @@ button {
     text-align: center;
 }
 
-.quote p {
+.quote blockquote {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
@@ -178,13 +178,13 @@ button {
     width: 75%;
 }
 
-#quad-img {
-    /* width: 65%; */
+.about h2 {
+    margin-inline: 6rem;
 }
 
 .centered {
+    margin-inline: auto;
     width: 85ch;
-    margin-inline:auto;
 }
 
 .centered * {
@@ -195,6 +195,100 @@ button {
     justify-content: center;
 }
 
-.about {
-    margin-left: 3.5rem;
+cite {
+    display: block;
+    font-style: unset;
+}
+
+.green-block {
+    background-color: #46cfa2;
+}
+
+.light-green-block {
+    background-color: #a1e6d0;
+}
+
+.red-block {
+    background-color: #fe6f61;
+}
+
+.bright-green-block {
+    background-color: #46cfa3;
+}
+
+.blue-block {
+    background-color: #5faed7;
+}
+
+.purple-block {
+    background-color: #a995d2;
+}
+
+.pink-block {
+    background-color: #a1e6d0;
+}
+
+.yellow-block {
+    background-color: #f8ed94;
+}
+
+footer {
+    color: white;
+    background-color: #121341;
+    min-height: 50vh;
+    font-size: 0.75rem;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.footer-flex-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-flex-container > div {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.footer-social-media-row {
+    flex-direction: row;
+}
+
+footer img {
+    width: 20%;
+}
+
+footer button {
+    background-color: #121341;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+.footer-border {
+    display: flex;
+    flex-grow: 1;
+    /* height: 200px; */
+}
+
+.footer-border * {
+    width: 16.66%;
+    height: 5px;
+}
+
+.block-container {
+    display: flex;
+    margin-inline: auto;
+    justify-content: center;
+    width: 7rem;
+}
+
+.block-container * {
+    width: 2rem;
+    height: 3px;
 }
