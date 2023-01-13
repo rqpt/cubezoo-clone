@@ -254,9 +254,16 @@ footer li {
 }
 
 .footer-flex-container {
+    padding-top: 3rem;
     display: flex;
     width: 80vw;
     margin-inline: auto;
+}
+
+.footer-column-split {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .footer-social-media-row button {
@@ -294,4 +301,10 @@ footer button {
 .block-container * {
     width: 2rem;
     height: 3px;
+}
+
+.privacy-policy {
+    position: relative;
+    left: 8rem;
+    top: 3.5rem;
 }
