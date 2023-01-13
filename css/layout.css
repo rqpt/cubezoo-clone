@@ -260,6 +260,10 @@ footer li {
     margin-inline: auto;
 }
 
+.footer-flex-container > * {
+    min-width: 20%;
+}
+
 .footer-column-split {
     display: flex;
     flex-direction: column;
